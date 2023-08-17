@@ -4,9 +4,7 @@
   <default sync-j="2"/>
 
   <remote fetch="https://git.yoctoproject.org/" name="yocto"/>
-  <remote fetch="https://github.com/Freescale" name="freescale_1"/>
-  <remote fetch="https://github.com/TimesysGit" name="freescale_2"/>
-  <remote fetch="https://github.com/mattsm" name="freescale_3"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://git.openembedded.org/" name="oe"/>
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="https://github.com/meta-qt5"  name="QT5"/>
@@ -17,13 +15,13 @@
 
   <project remote="oe" revision="247b1267bbe95719cd4877d2d3cfbaf2a2f4865a" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale_1" revision="krogoth" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="freescale" revision="krogoth" name="fsl-community-bsp-base" path="sources/base">
        <copyfile dest="README" src="README"/>
        <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale_2" revision="3dfb82fc7e703eae9891b3ffda0e9393701f2396" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale_3" revision="a165068f8a0d1cf29aabe4b4053f28be1c2aa492" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="freescale" revision="3dfb82fc7e703eae9891b3ffda0e9393701f2396" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="a165068f8a0d1cf29aabe4b4053f28be1c2aa492" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
 
   <project remote="OSSystems" revision="77736988073a5d90fcff9d0005c8477332ede387" name="meta-browser" path="sources/meta-browser" />
 
