@@ -3,9 +3,9 @@
 
   <default sync-j="2"/>
 
-  <remote fetch="https://git.yoctoproject.org/" name="yocto"/>
+  <remote fetch="https://git.yoctoproject.org" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
-  <remote fetch="https://git.openembedded.org/" name="oe"/>
+  <remote fetch="https://git.openembedded.org" name="oe"/>
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="https://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="https://github.com/nxp-imx" name="fsl-release" />
